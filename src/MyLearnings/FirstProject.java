@@ -1,4 +1,5 @@
 package MyLearnings;
+import java.awt.SystemColor;
 import java.util.Scanner;
 public class FirstProject {
 
@@ -18,10 +19,12 @@ public class FirstProject {
 		int d = a-b;
 		int e  = a*b;
 		int f = a/b;
+		char g= 'm';
 		System.out.println(c);
 		System.out.println(d);
 		System.out.println(e);
 		System.out.println(f);
+		System.out.println(g);
 		scan.close();
 	}
 }
