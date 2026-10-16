@@ -50,7 +50,7 @@ public class ThirdProject {
         Bank b1 = new Bank("Gobi", 5000);
 
         b1.display();
-        b1.deposit(1000);
+        b1.deposit(2000);
         b1.display();  
 
         Bank b2 = new Bank("Sathish", 3000);
