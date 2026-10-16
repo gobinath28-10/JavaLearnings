@@ -1,17 +1,19 @@
 package MyLearnings;
 
-public class SecondProject {
+class LearnConstructor{
+	int x;
+	String name;
 	
-	SecondProject(){
-		
+	LearnConstructor(){
+		x = 10;
+		name = "gobi";
 	}
-	void add(int a,int b,int c) {
-		System.out.print(a+b+c+8);
+	void display() {
+		System.out.println(x);
+		System.out.println(name);
 	}
-	
-
-//	public static void main(String[] args) {
-//		
-//	}
-
+	public static void main(String[] args) {
+		LearnConstructor ls = new LearnConstructor();
+		ls.display();
+	}
 }

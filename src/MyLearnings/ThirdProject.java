@@ -8,6 +8,8 @@ class Bank {
     static int count = 0;
 
     Bank(String name, double balance) {
+    	
+    	System.out.println("First run ");
 
         this.name = name;
         this.balance = balance;
@@ -48,15 +50,13 @@ public class ThirdProject {
         Bank b1 = new Bank("Gobi", 5000);
 
         b1.display();
-
         b1.deposit(1000);
-
-        b1.display();
+        b1.display();  
 
         Bank b2 = new Bank("Sathish", 3000);
 
         b2.display();
 
-        Bank.displayCount();
+       Bank.displayCount();
     }
 }
