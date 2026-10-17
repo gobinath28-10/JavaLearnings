@@ -47,7 +47,7 @@ public class ThirdProject {
 
     public static void main(String[] args) {
 
-        Bank b1 = new Bank("Gobi", 5000);
+        Bank b1 = new Bank("Gobi", 6000);
 
         b1.display();
         b1.deposit(2000);

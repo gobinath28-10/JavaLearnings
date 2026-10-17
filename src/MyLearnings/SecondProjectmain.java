@@ -15,7 +15,7 @@ public class SecondProjectmain {
 	
 	public static void main(String[] args) {
 		SecondProjectmain obj = new SecondProjectmain();
-		SecondProject obj1 = new SecondProject();
+		SecondProjectmain obj1 = new SecondProjectmain();
 		obj.add(10,20);
 		obj1.add(10,20,30);
 		System.out.println();
